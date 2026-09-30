@@ -1,0 +1,21 @@
+@media (max-width: 700px) {
+
+    .hero {
+        flex-direction: column;
+        padding: 50px 0;
+    }
+
+    .hero-text h1 {
+        font-size: 38px;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        gap: 15px;
+        padding: 0;
+    }
+}
