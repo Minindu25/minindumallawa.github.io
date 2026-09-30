@@ -58,8 +58,20 @@ nav {
 .hero {
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 70px;
     padding: 90px 0;
+    min-height: 520px;
+}
+
+.hero-photo {
+    flex: 0 0 280px;
+}
+
+.hero-photo img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 .hero-text {
@@ -68,19 +80,44 @@ nav {
 
 .hero-text h1 {
     font-size: 48px;
-    margin-bottom: 5px;
+    margin: 0 0 5px 0;
 }
 
 .subtitle {
-    font-size: 21px;
-    color: #555;
-    margin-top: 0;
+    font-size: 22px;
+    font-weight: 500;
+    color: #444;
+    margin: 0;
 }
 
-.hero-text p {
+.affiliation {
+    font-size: 18px;
+    color: #666;
+    margin-top: 4px;
+}
+
+.intro {
     font-size: 17px;
+    max-width: 650px;
+    margin-top: 25px;
 }
 
+.profile-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-top: 25px;
+}
+
+.profile-links a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #555;
+}
+
+.profile-links a:hover {
+    color: #000;
+}
 
 /* ---------- Sections ---------- */
 
