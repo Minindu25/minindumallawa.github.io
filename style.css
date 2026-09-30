@@ -129,7 +129,28 @@ section h2 {
     font-size: 30px;
     margin-bottom: 25px;
 }
+/* ---------- Research ---------- */
 
+.research-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.research-card {
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+.research-card h3 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.research-card p {
+    color: #555;
+}
 
 /* ---------- Footer ---------- */
 
@@ -145,6 +166,9 @@ footer {
 /* ---------- Mobile ---------- */
 
 @media (max-width: 700px) {
+    .research-grid {
+    grid-template-columns: 1fr;
+}
 
     .hero {
         flex-direction: column;
